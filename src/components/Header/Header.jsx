@@ -23,6 +23,10 @@ export default function Header() {
         }
       </ul>
       <button>Get A Quote</button>
+      <button className='button-new'>
+        New
+      </button>
     </div>
+
   )
 }
