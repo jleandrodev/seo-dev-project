@@ -1,5 +1,7 @@
 import Header from "../Header/Header";
 import './styles.scss'
+import { FaPlay } from "react-icons/fa";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function Hero() {
   return (
@@ -13,8 +15,15 @@ export default function Hero() {
         Pellentesque non pretium sem. Sed sit amet diam vitae tortor mattis tincidunt et at neque.
         </p>
         <div className="hero-buttons">
-          <button className="get-started-button">Get Started {'>'}</button>
-          <button className="play-button">{'>'}</button>
+          <button className="get-started-button">
+            Get Started
+            <span className="arrow-icon">
+              <MdKeyboardArrowRight />
+            </span>
+          </button>
+          <button className="play-button">
+            <FaPlay />
+          </button>
         </div>
       </div>
       <div className="hero-right">
