@@ -1,0 +1,35 @@
+.hero-container {
+  background: rgb(255,222,173);
+  background: linear-gradient(162deg, rgba(255,222,173,1) 27%, rgba(250,239,227,1) 87%);
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.hero-container .hero-left {
+  max-width: 580px;
+  margin: 0 auto;
+  color: #222;
+  
+}
+.hero-container .hero-left  h1{
+  font-weight: 900;
+  font-size: 60px;
+  
+}
+
+.hero-container .hero-left .get-started-button {
+  width: 182px;
+  height: 60px;
+}
+.hero-container .hero-left .play-button {
+  width: 60px;
+  height: 60px;
+}
+
+
+
+.hero-container .hero-right {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
