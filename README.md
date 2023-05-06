@@ -11,13 +11,13 @@ npm
 Clone o repositório para sua máquina local:
 
 
-git clone https://github.com/seu-usuario/seu-projeto.git
+`git clone https://git@github.com:jleandrodev/seo-dev-project.git`
 
 
 ## Instale as dependências do projeto:
 
 
-npm install
+`npm install`
 
 
 ## Inicie o servidor de desenvolvimento:
